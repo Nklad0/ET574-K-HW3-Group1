@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 students = ['Nico', 'Aiden', 'Vinicius']
 
 # change Nic to Nico
@@ -23,6 +24,8 @@ students = ["Nico", "Aiden", "Vinicius"]
 		    print(f"Hi {name}")
 
 	greet_students(students)
+=======
+>>>>>>> 633a16f (Task E Complete)
 
 
 >>>>>>> 3261b8e (Added Task A)

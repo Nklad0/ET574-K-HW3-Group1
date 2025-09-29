@@ -1,0 +1,7 @@
+Step 4: Evaluation of Response
+
+- Length of the output: The line is about 24 lines long  
+- Complexity: It used lists and loops, which are appropriate for beginners.  
+- Method of obtaining data: It asked for 25 console inputs, which is tedious.  
+- Assumptions: The program calculated averages even though this was not requested.  
+- Suitability: Overall, the solution is partly suitable, but the input method is not ideal for an entry-level student.
