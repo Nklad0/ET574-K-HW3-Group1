@@ -18,6 +18,21 @@ greet_students(students)
 =======
 # list of three students named Nico, Aiden and Vinicius
 students = ["Nico", "Aiden", "Vinicius"]
+gpas = [3.8, 3.5, 3.9]  
+# Example GPAs for each student
+
+# Print all above average students
+average_gpa = sum(gpas) / len(gpas)
+print("Above average students:")
+for i, gpa in enumerate(gpas):
+    if gpa > average_gpa:
+        print(f"{students[i]}: {gpa}")
+
+# Predict scholarship students (GPA >= 3.5)
+print("Scholarship students:")
+for i, gpa in enumerate(gpas):
+    if gpa >= 3.5:
+        print(f"{students[i]}: {gpa}")
 
     def greet_students(student_list):
 	    for name in student_list:
@@ -29,3 +44,4 @@ students = ["Nico", "Aiden", "Vinicius"]
 
 
 >>>>>>> 3261b8e (Added Task A)
+
